@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 export const Header = () => {
     return (
         <header className="bg-dark text-light py-2">
-            <div className="container-md">
+            <div className="container">
                 <h1>Ecommerce Website</h1>
                 <nav>
                     <ul className="nav">
