@@ -19,7 +19,7 @@ export const Profile = () => {
                 <div className="py-4">
                     <div className="row">
                         <div className="col-md-4 col-12">
-                            <img src={ imgUrl } className="rounded-circle" />
+                            <img src={ imgUrl } className="rounded-circle" alt="img-profile" />
                         </div>
                         <div className="col-md-8 col-12">
                             <div className="card-body ms-4 py-2">
