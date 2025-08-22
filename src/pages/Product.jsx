@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { Footer } from "../component/Footer"
 import { Header } from "../component/Header"
 import products from "../data/products"
+
 const ProductListings = ( { data } ) => {
   const resultDisplay = data.map( ( { id, name, description, price, productImgUrl } ) => {
     return (
@@ -27,6 +28,20 @@ const ProductListings = ( { data } ) => {
   return resultDisplay;
 }
 
+const AffordableProduct = ( { price } ) => {
+  const filterPrice = price.filter( ( { price } ) => price < 80 );
+  const listedProduct = filterPrice.map( ( { name, description, price } ) => {
+    return (
+      <div>
+        <h3>{ name }</h3>
+        <p>{ description }</p><br />
+        <p className="text-body-secondary">Price: ${ price }</p>
+      </div>
+    )
+  } )
+  return listedProduct
+}
+
 export const Product = () => {
   return (
     <>
@@ -35,6 +50,9 @@ export const Product = () => {
         <section>
           <h1 className="fw-normal">Product Js</h1>
           <ProductListings data={ products } />
+          <hr />
+          <h2 className="display-3">Affordable Products</h2>
+          <AffordableProduct price={ products } />
         </section>
       </main>
       <Footer />

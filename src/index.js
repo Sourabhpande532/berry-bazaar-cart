@@ -8,6 +8,7 @@ import { Product } from "../src/pages/Product"
 import { Cart } from "../src/pages/Cart"
 import { About } from "../src/pages/About"
 import { ProductDetails } from './pages/ProductDetails';
+import { Profile } from './pages/Profile';
 const router = createBrowserRouter( [
   {
     path: "/",
@@ -28,6 +29,10 @@ const router = createBrowserRouter( [
   {
     path: "/about",
     element: <About />
+  },
+  {
+    path:"/profile",
+    element: <Profile/>
   }
 ] )
 // const root = ReactDOM.createRoot( document.getEldsementById( 'root' ) );
