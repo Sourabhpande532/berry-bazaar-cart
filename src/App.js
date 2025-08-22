@@ -13,7 +13,7 @@ const App = () => {
             <div className="card-body">
               <h3>{ name }</h3>
               <p className="fw-lighter">{ description }</p>
-              <Link className="btn btn-primary" to={ `/${ id }`}>{ productDetails }</Link>
+              <Link className="btn btn-primary" to={ `product/${ id }`}>{ productDetails }</Link>
             </div>
           </div>
         </div>
