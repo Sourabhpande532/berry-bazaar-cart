@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# 🛒 E-Commerce App (Dynamic Routing)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-Dynamic--Routing-blue)  
+![Bootstrap](https://img.shields.io/badge/Bootstrap-UI%20Styling-purple)  
+![Router](https://img.shields.io/badge/React--Router--DOM-v6.22-red)  
+![Live Project](https://img.shields.io/badge/LIVE--CLASS-PROJECT---lightgrey)  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔍 Purpose  
 
-### `npm start`
+The **E-Commerce App** is a web-based application designed to simulate a simple online shopping experience.  
+It uses **React + React Router DOM** for **dynamic routing**, providing smooth navigation between product listings, product details, and user profile.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🛍️ **Browse Products**  
+- 📖 **Product Details Page** (Dynamic routes)  
+- 👤 **User Profile with Update option**  
+- 🚦 **Navigation with React Router DOM**  
+- 🎨 **Styled using Bootstrap**  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+***
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Tech Stack  
 
-### `npm run build`
+> React (Functional Components + Hooks)  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> React Router DOM (Dynamic Routing with `createBrowserRouter` & `RouterProvider`)  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> Bootstrap (UI Styling)  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+***
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## [GO LIVE](https://codesandbox.io/p/sandbox/ir3-1-assignment1-2qsjrv)  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Home](./src/assets/home.png)  
+---  
+![Product](./src/assets/dyanamic.png)  
+---  
+![Profile](./src/assets/thired.png)  
+---  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧭 Core Features  
 
-## Learn More
+- 🛍️ **Product Listing** (Grid view with Bootstrap)  
+- 🔗 **Dynamic Routing with React Router DOM**  
+  - `Product/:id` → **Product Details Page**  
+  - `/profile` → **User Profile Page**  
+- 📱 **Responsive UI with Bootstrap**  
+- ⚡ **Component-based Architecture** (ProductCard, ProductList, Navbar, Profile, etc.)  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🧑‍💻 Skills Gained in the Project
 
-### Code Splitting
+- Building React Components for modular design.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Implementing dynamic routing using createBrowserRouter & RouterProvider.
 
-### Analyzing the Bundle Size
+- Managing URL params for product details page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Designing a responsive UI with Bootstrap.
